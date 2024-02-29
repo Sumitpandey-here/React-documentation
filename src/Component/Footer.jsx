@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='row bg-secondary'>
 
                 <div className='col-6 text-center h5'>
-                    @2023.All Rights Reserved.
+                    @2024.All Rights Reserved.
                 </div>
 
                 <div className='col-6'>
