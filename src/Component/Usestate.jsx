@@ -36,7 +36,7 @@ const Usestate = () => {
                     </div>
 
                     <div className='text-center mb-4'>
-                        <img src={require("../data/usestate_hook.png")} alt="usestate" />
+                        <img  className='img-fluid' src={require("../data/usestate_hook.png")} alt="usestate" />
 
            
                     </div>

@@ -20,7 +20,7 @@ const React_dom = () => {
           })}
 
           <div className='text-center py-2'>
-            <img src={require('../data/react_dom.jpg')} alt="react" />
+            <img className='img-fluid' src={require('../data/react_dom.jpg')} alt="react" />
           </div>
 
           {react_dom.points2.map((points2) => {

@@ -11,3 +11,26 @@
     align-items: center;
     height: 30px;
 }
+
+
+@media (max-width: 767px) {
+    /* Apply col-12 to div elements with col-6 class in mobile view */
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+        
+    }
+
+    .col-4 {
+        
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .h5,h6{
+        font-size: small;
+    }
+   
+}

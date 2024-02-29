@@ -22,7 +22,7 @@ const Redux = () => {
                         ✅{redux.title2}
                     </div>
                     <div className='my-2 text-center'>
-                        <img src={require("../data/redux_install.png")} alt="redux" />
+                        <img className='img-fluid' src={require("../data/redux_install.png")} alt="redux" />
 
                     </div>
 
@@ -36,7 +36,7 @@ const Redux = () => {
                     </div>
 
                     <div className='my-2 text-center'>
-                        <img src={require("../data/store.png")} alt="redux" />
+                        <img className='img-fluid' src={require("../data/store.png")} alt="redux" />
 
                     </div>
 
@@ -49,7 +49,7 @@ const Redux = () => {
                     </div>
 
                     <div className='my-2 text-center'>
-                        <img src={require("../data/provider.png")} alt="redux" />
+                        <img className='img-fluid w-50'  src={require("../data/provider.png")} alt="redux" />
 
                     </div>
 
@@ -57,13 +57,13 @@ const Redux = () => {
                     <div className='my-4 h3'>
                         ✅{redux.title5}
                     </div>
-                    <div className='my-4 h5 ms-4'>
+                    <div className='my-4 h6'>
                         {redux.points5}
 
                     </div>
 
                     <div className='my-2 text-center'>
-                        <img src={require("../data/slice.png")} alt="redux" />
+                        <img  className='img-fluid w-50' src={require("../data/slice.png")} alt="redux" />
 
                     </div>
 
@@ -77,7 +77,7 @@ const Redux = () => {
                     </div>
 
                     <div className='my-2 text-center'>
-                        <img src={require("../data/addslicereducerstore.png")} alt="redux" />
+                        <img className='img-fluid w-50' src={require("../data/addslicereducerstore.png")} alt="redux" />
 
                     </div>
 
@@ -91,7 +91,7 @@ const Redux = () => {
                     </div>
 
                     <div className='my-2 text-center'>
-                        <img src={require("../data/actionstateredux.png")} alt="redux" />
+                        <img className='img-fluid w-50' src={require("../data/actionstateredux.png")} alt="redux" />
 
                     </div>
 
@@ -110,7 +110,7 @@ const Redux = () => {
 
 
                     <div className='text-center mb-4'>
-                        <img className='img-fluid' src={require("../data/Redux_toolkit.png")} alt="redux" />
+                        <img className='img-fluid w-50' src={require("../data/Redux_toolkit.png")} alt="redux" />
                     </div>
 
                 </div>

@@ -33,7 +33,7 @@ const Callback_function = () => {
                         ✅{callback_function.points2}
                     </div>
                     <div className='my-4 text-center'>
-                        <img className="img-fluid" src={require("../data/callback_function.png")} alt="callback" />
+                        <img className="img-fluid w-50" src={require("../data/callback_function.png")} alt="callback" />
                     </div>
 
                     <div className='h3 my-2'>

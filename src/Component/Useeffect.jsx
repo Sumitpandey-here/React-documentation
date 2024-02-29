@@ -25,7 +25,7 @@ const Useeffect = () => {
                     </div>
 
                     <div className='text-center my-4'>
-                        <img className="img-fluid" src={require("../data/useeffect.png")} alt="useeffect" />
+                        <img className="img-fluid w-50" src={require("../data/useeffect.png")} alt="useeffect" />
                     </div>
                 </div>
 

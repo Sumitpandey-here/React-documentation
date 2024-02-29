@@ -53,14 +53,14 @@ const React_component = () => {
                     </div>
 
                     <div className='text-center my-5'>
-                        <img src={require('../data/react_functional_component.png')} alt="react" />
+                        <img className='img-fluid' src={require('../data/react_functional_component.png')} alt="react" />
                     </div>
                     <div className='h5'>
                     Example :
                     </div>
 
                     <div className='text-center py-5'>
-                        <img src={require('../data/react_functional_component_part2.png')} alt="react" />
+                        <img  className='img-fluid w-50' src={require('../data/react_functional_component_part2.png')} alt="react" />
                     </div>
 
                     <div className='h3'>
@@ -82,13 +82,13 @@ const React_component = () => {
                     Simplest way to write a Class component:
                     </div>
                     <div className='text-center my-4'>
-                        <img src={require('../data/class_component.png')} alt="react" />
+                        <img  className='img-fluid w-50' src={require('../data/class_component.png')} alt="react" />
                     </div>
                     <div className='h5'>
                     Example :
                     </div>
                     <div className='text-center my-4'>
-                        <img src={require('../data/class_component_part2.png')} alt="react" />
+                        <img className='img-fluid w-50' src={require('../data/class_component_part2.png')} alt="react" />
 
                     </div>
                 </div>

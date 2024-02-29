@@ -24,7 +24,7 @@ const Usememo = () => {
                         </div>
 
                         <div className='text-center mt-3'>
-                            <img className='img-fluid' src={require("../data/usememo.png")} alt="" />
+                            <img className='img-fluid w-50' src={require("../data/usememo.png")} alt="" />
                         </div>
                         <div className='h5 my-2 ms-4 mt-3'>
                             {usememo.points2}

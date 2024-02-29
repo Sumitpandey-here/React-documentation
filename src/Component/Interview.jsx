@@ -15,8 +15,8 @@ const Interview = () => {
 
                     <ul className='my-5'>
                         {question.map((pair, index) => (
-                            <li className='my-3' key={index}>
-                                <strong className='h3'>{pair.key}</strong> <br></br><span className='h5'>✅{pair.value}</span>
+                            <li className='my-4' key={index}>
+                                <strong className='h4'>{pair.ques}</strong> <br></br><span className='h6'>✅{pair.ans}</span>
                             </li>
                         ))}
                     </ul>

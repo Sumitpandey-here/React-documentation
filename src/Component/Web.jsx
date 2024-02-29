@@ -13,7 +13,7 @@ const Web = () => {
             <nav class="navbar navbar-expand-lg navbar-light bg-secondary px-5">
                 <div class="container-fluid">
                     <div>
-                        <img className='img-fluid w-25 ms-4' src={require('../data/react_logo.png')} alt='reactr'></img>
+                       
                         
 
 
@@ -24,7 +24,7 @@ const Web = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item fs-4 me-3 ">
-                                <Link class="nav-link active text-info font-weight-bold" aria-current="page" to="/" >React</Link>
+                                <Link class="nav-link active text-info font-weight-bold ms-4" aria-current="page" to="/" ><img className='img-fluid w-25 ms-5 ' src={require('../data/react_logo.png')} alt='reactr'></img></Link>
                             </li>
 
                             <li class="nav-item dropdown fs-5">
