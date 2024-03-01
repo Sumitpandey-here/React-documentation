@@ -30,7 +30,11 @@ function App() {
         <>
             <Web />
             <index />
-            <Routes>
+            <div className='container'>
+                <div className='row'>
+
+                
+            <Routes >
 
                 <Route
                     exact
@@ -128,7 +132,9 @@ function App() {
                 ></Route>
 
             </Routes>
+            </div>
 
+</div>
             
 
 <Footer/>

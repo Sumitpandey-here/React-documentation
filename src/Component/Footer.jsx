@@ -5,8 +5,8 @@ import { faFacebook, faTwitter, faGithub ,faYoutube} from '@fortawesome/free-bra
 
 const Footer = () => {
     return (
-        <div className='container-fluid'>
-            <div className='row bg-secondary'>
+        <footer className='container-fluid'>
+            <footer className='row bg-secondary'>
 
                 <div className='col-6 text-center h5'>
                     @2024.All Rights Reserved.
@@ -21,9 +21,9 @@ const Footer = () => {
                         
                     </div>
                 </div>
-            </div>
+            </footer>
 
-        </div>
+        </footer>
     )
 }
 

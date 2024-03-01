@@ -31,7 +31,12 @@ library.add(faFacebook);
 
 const Index = () => {
   return (
-<div>
+
+<div className='bg-light'>
+<div className='container bg-light'>
+  <div className='row'>
+
+  
       
 <Front/>
 <Introduction/> 
@@ -50,6 +55,8 @@ const Index = () => {
 <Redux/>
 <Interview/>
 {/* <Footer/> */}
+</div>
+</div>
 </div>
   )
 }
